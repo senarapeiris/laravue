@@ -6,15 +6,21 @@ How to run the User Registration & Login and User Management System With admin p
 
 2. Extract the file and copy the folder
 
-3.Paste inside root directory
+3. Paste inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
 
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+4. Install composer 
 
-5. Create a database with name registration
+5. Check whether all the php modules are there ( php -m )
 
-6. Import .sql file
+6. Install extentions >> Laravel Blade Formatter & PHP Intelephense
 
-7.Run the script localhost/[foldername] (frontend)
+7. Open PHPMyAdmin (http://localhost/phpmyadmin)
+
+8. Create a database with name registration
+
+9. Import .sql file
+
+10.Run the script localhost/[foldername] (frontend)
 
 
 Username: iresha@gmail .com
