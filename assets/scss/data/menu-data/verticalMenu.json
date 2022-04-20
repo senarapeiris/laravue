@@ -1,0 +1,11 @@
+{
+  "menu": [
+   
+    {
+      "url": "users/users",
+      "name": "User",
+      "icon": "user",
+      "slug": "users"
+    }
+  ]
+}

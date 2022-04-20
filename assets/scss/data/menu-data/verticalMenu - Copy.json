@@ -1,0 +1,110 @@
+{
+  "menu": [
+    {
+      "url": "dashboard/dashboard",
+      "name": "Dashboard",
+      "icon": "layers",
+      "slug": "dashboard"
+    },
+  
+    {
+      "navheader": "Masters",
+      "slug": ""
+    },
+    {
+      "url": "masters/country",
+      "name": "Country",
+      "icon": "globe",
+      "slug": "country"
+    },
+    {
+      "url": "masters/category",
+      "name": "Category",
+      "icon": "grid",
+      "slug": "category"
+    },
+    {
+      "url": "masters/job-vacancy",
+      "name": "Job Vacancy",
+      "icon": "briefcase",
+      "slug": "job-vacancy"
+    },
+    {
+      "navheader": "Recruitment Info",
+      "slug": ""
+    },
+    {
+      "url": "job-vacancy-info/applicant",
+      "name": "Applicant",
+      "icon": "users",
+      "slug": "applicant"
+    },
+    {
+      "name": "Application",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "job-vacancy-info/new-application",
+          "name": "New",
+          "icon": "circle",
+          "slug": "new-application"
+        },
+         {
+          "url": "job-vacancy-info/assigned-application",
+          "name": "Assigned",
+          "icon": "circle",
+          "slug": "assigned-application"
+        },
+        {
+          "url": "job-vacancy-info/selected-application",
+          "name": "Selected",
+          "icon": "circle",
+          "slug": "selected-application"
+        },
+        {
+          "url": "job-vacancy-info/waiting-application",
+          "name": "Waiting",
+          "icon": "circle",
+          "slug": "waiting-application"
+        },
+         {
+          "url": "job-vacancy-info/completed-application",
+          "name": "Completed",
+          "icon": "circle",
+          "slug": "completed-application"
+        },
+        {
+          "url": "job-vacancy-info/rejected-application",
+          "name": "Rejected",
+          "icon": "circle",
+          "slug": "rejected-application"
+        }
+      ]
+    },
+
+
+    {
+      "navheader": "Setting",
+      "slug": ""
+    },
+      {
+          "url": "setting/permission",
+          "name": "Permission",
+          "icon": "key",
+          "slug": "permission"
+        },
+          {
+          "url": "app/user/edit",
+          "name": "Role",
+          "icon": "lock",
+          "slug": "app-user-edit"
+        },
+          {
+          "url": "users/users",
+          "name": "User",
+          "icon": "user",
+          "slug": "users"
+        }
+  ]
+}
